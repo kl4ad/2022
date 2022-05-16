@@ -81,11 +81,11 @@ To realize the vision of autonomous driving, the automotive industry is investin
 
   <li><b>Applications for Autonomous Driving: </b>  Despite recent advancements, AD is still far from ready to meet full level-5 autonomy requirements. The primary obstacle is the <i>open-world</i> environment in which the autonomous vehicle must operate. Navigating this environment requires making informed decisions and taking actions within novel and complex situations. While machine learning, in general, and autonomous driving, in particular, have had much success in <i>closed-world</i> environments with lots of experiential training data, the challenges posed by an open-world environment are yet to be resolved. Additionally, the full autonomy of self-driving and its widespread usage poses a new set of non-technical challenges, including user acceptance, accountability, explainability, and conformance to legal, ethical, and societal boundaries. We believe that knowledge-infused learning -- through an integration of domain knowledge and machine learning -- is a potent tool to overcome such challenges. (<i>See relevant resources:</i> [3])</li><br>
    
-  <li><b>Knowledge-based Entity Prediction (KEP) for Improved Machine Perception: </b> <img src="../assets/kep.png" align="right" width="330" height="200" /> Machine perception is one of the key technical problems in AD where detecting and recognizing objects/events in a scene (i.e. environmental perception) is a critical task. This, however, is particularly challenging as there are several reasons why an entity could go unrecognized. This includes, but not limited to, sensor failure, occlusion, low resolution (e.g., from weather), or errors in computer vision models. For example, consider the case where an ego vehicle driving through a residential neighborhood and detects only a ball on the road (partial observation) and could contain unrecognized entities such as <i>Child</i> in the scene.  Knowledge-based entity prediction (KEP) is a novel task that aims to address this issue by leveraging relational knowledge from heterogeneous sources in predicting potentially unrecognized entities\cite{wickramarachchi2021knowledge}. We will show how an innovative knowledge-infused learning approach can be developed for KEP and demonstrate its usefulness considering two high-quality, large-scale real AD datasets. (<i>See relevant resources:</i> [4,5])</li><br>
+  <li><b>Knowledge-based Entity Prediction (KEP) for Improved Machine Perception: </b> <img src="../assets/kep.png" align="right" width="330" height="200" /> Machine perception is one of the key technical problems in AD where detecting and recognizing objects/events in a scene (i.e. environmental perception) is a critical task. This, however, is particularly challenging as there are several reasons why an entity could go unrecognized. This includes, but not limited to, sensor failure, occlusion, low resolution (e.g., from weather), or errors in computer vision models. For example, consider the case where an ego vehicle driving through a residential neighborhood and detects only a ball on the road (partial observation) and could contain unrecognized entities such as <i>Child</i> in the scene.  Knowledge-based entity prediction (KEP) is a novel task that aims to address this issue by leveraging relational knowledge from heterogeneous sources in predicting potentially unrecognized entities. We will show how an innovative knowledge-infused learning approach can be developed for KEP and demonstrate its usefulness considering two high-quality, large-scale real AD datasets. (<i>See relevant resources:</i> [4,5])</li><br>
 
   <li><b>Leveraging Commonsense for Explainable Scene Clustering: </b>  The task of scene clustering refers to clustering a given set of scenes and assigning descriptive label(s) to each cluster. For example, a cluster may be described as <i>accident</i> scenes with a crashed vehicle, a police car, and an ambulance. Using scenes represented in a knowledge graph, and enriched with commonsense knowledge, it may be possible to automatically generate explanations for semantic clusters. In this tutorial, we will demonstrate how an innovative approach can be developed for explainable scene clustering along with the process of leveraging relevant commonsense knowledge for this task. (<i>See relevant resources:</i> [6])</li><br>
 
-  <li><b>Learning Visual Models for Road Sign Recognition using a Knowledge Graph as a Trainer: </b>  <img src="../assets/road_signs.png" align="right" width="370" height="150" /> The task of recognizing and understanding road signs is an important feature of autonomous driving. Current technology for road sign recognition (RSR) is mainly based on computer vision (CV) algorithms that solely depend on image data distribution of the training domain. Such models, however, tend to fail when applied to a target domain (e.g., road signs from China) that differs from their source domain (e.g. road signs from Germany) (see Fig. \ref{fig:roadsigns}). Knowledge graph neural network (KG-NN) is a novel neuro-symbolic approach to address the problem of transfer learning by using image-data-invariant auxiliary knowledge. We will show how this technology can be applied to enable transfer learning for the RSR task. (<i>See relevant resources:</i> [7])</li>
+  <li><b>Learning Visual Models for Road Sign Recognition using a Knowledge Graph as a Trainer: </b>  <img src="../assets/road_signs.png" align="right" width="370" height="150" /> The task of recognizing and understanding road signs is an important feature of autonomous driving. Current technology for road sign recognition (RSR) is mainly based on computer vision (CV) algorithms that solely depend on image data distribution of the training domain. Such models, however, tend to fail when applied to a target domain (e.g., road signs from China) that differs from their source domain (e.g. road signs from Germany). Knowledge graph neural network (KG-NN) is a novel neuro-symbolic approach to address the problem of transfer learning by using image-data-invariant auxiliary knowledge. We will show how this technology can be applied to enable transfer learning for the RSR task. (<i>See relevant resources:</i> [7])</li>
  </ul>
     </v-row>   
 
@@ -229,19 +229,37 @@ import BiographyCard from './BiographyCard.vue'
       programItems: [
         {
           color: 'red',
-          time: '9:00',
-          title: 'Introduction',
+          //time: 'Time: TBD',
+          title: 'Introduction to Knowledge-infused Learning',
           description: ''
         },
         {
           color: 'purple',
-          time: '9:30',
-          title: 'Programm will be announced',
+          //time: 'Time: TBD',
+          title: 'Applications for Autonomous Driving:',
           description: ''
         },
         {
           color: 'green',
-          time: '16:00',
+          //time: 'Time: TBD',
+          title: 'Knowledge-based Entity Prediction (KEP) ',
+          description: ''
+        },
+        {
+          color: 'orange',
+          //time: 'Time: TBD',
+          title: 'Commonsense for Explainable Scene Clustering ',
+          description: ''
+        },
+        {
+          color: 'blue',
+          //time: 'Time: TBD',
+          title: 'Road Sign Recognition using a KG as a Trainer',
+          description: ''
+        },
+        {
+          color: 'teal',
+          //time: 'Time: TBD',
           title: 'Closure',
           description: ''
         },
