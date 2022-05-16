@@ -236,7 +236,7 @@ import BiographyCard from './BiographyCard.vue'
         {
           color: 'purple',
           //time: 'Time: TBD',
-          title: 'Applications for Autonomous Driving:',
+          title: 'Applications for Autonomous Driving',
           description: ''
         },
         {
@@ -255,12 +255,6 @@ import BiographyCard from './BiographyCard.vue'
           color: 'blue',
           //time: 'Time: TBD',
           title: 'Road Sign Recognition using a KG as a Trainer',
-          description: ''
-        },
-        {
-          color: 'teal',
-          //time: 'Time: TBD',
-          title: 'Closure',
           description: ''
         },
       ],
