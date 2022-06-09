@@ -2,7 +2,7 @@
   <v-container fluid class="pa-0 ma-0">
     <v-row  
         no-gutters>
-      <v-parallax height="300" class="start-image" src="../assets/Title4 copy.png">
+      <v-parallax height="300" class="start-image" src="../assets/Title.png">
         <v-row
           align="center"
           justify="center"
