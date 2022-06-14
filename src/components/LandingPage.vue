@@ -1,23 +1,31 @@
 <template>
-  <v-container fluid class="pa-0 ma-0">
+  <v-container
+  fluid
+  class="pa-0 ma-0"
+  about id="main_id">
     <v-row  
-        no-gutters>
-      <v-parallax height="300" class="start-image" src="../assets/Title.png">
+        no-gutters
+        align="center"
+        justify="center">
+      <v-parallax height="325"
+       style="max-width: 1980px;"
+       class="start-image" src="../assets/Title.png">
         <v-row
-          align="center"
+          class="mt-2"
+          align="start"
           justify="center"
         >
           <v-col
             class="text-center"
             cols="12"
           >
-            <h1 class="text-h2 font-weight-thin mb-4">
+            <h1 class="text-h1 font-weight-thin mb-4">
               KL4AD
             </h1>
-            <h4 class="text-h4 subheading">
-              Knowledge-Infused Learning for Autonomous Driving
+            <h4 class="heading-text text-h4 subheading">
+              <span>Knowledge-Infused Learning for Autonomous Driving</span>
             </h4>
-            <h5 class="text-h5 subheading">
+            <h5 class="heading-text text-h5 subheading">
               ISWC'22 Tutorial
             </h5>
           </v-col>
@@ -27,25 +35,26 @@
     <v-row no-gutters 
       class="pt-8"
       align="center"
-      justify="center">
+      justify="center"
+      about id="abstract_id">
       <h1 class="text-h4 font-weight-thin mb-4">
               Abstract
       </h1>
     </v-row>
-    <v-row no-gutters
-      class="pa-8"
-      align="center"
-      justify="center">
-      <p class="text-justify">
-    <b>Autonomous Driving (AD)</b> is considered as a testbed for tackling many hard AI problems. Despite the recent advancements in the field, AD is still far from achieving full autonomy due to core technical problems inherent in AD. The emerging field of neuro-symbolic AI and the methods for <b>knowledge-infused learning</b> are showing exciting ways of leveraging external knowledge within machine/deep learning solutions, with the potential benefits for interpretability, explainability, robustness, and transferability. In this tutorial, we will examine the use of knowledge-infused learning for three core state-of-the-art technical achievements within the AD domain. With a collaborative team from both academia and industry, we will demonstrate recent innovations using real-world datasets.
-  </p>
-    </v-row>
-  
+      <v-row no-gutters
+        class="pa-8"
+        align="center"
+        justify="center">
+        <p class="text-justify">
+      <b>Autonomous Driving (AD)</b> is considered as a testbed for tackling many hard AI problems. Despite the recent advancements in the field, AD is still far from achieving full autonomy due to core technical problems inherent in AD. The emerging field of neuro-symbolic AI and the methods for <b>knowledge-infused learning</b> are showing exciting ways of leveraging external knowledge within machine/deep learning solutions, with the potential benefits for interpretability, explainability, robustness, and transferability. In this tutorial, we will examine the use of knowledge-infused learning for three core state-of-the-art technical achievements within the AD domain. With a collaborative team from both academia and industry, we will demonstrate recent innovations using real-world datasets.
+    </p>
+      </v-row>
   
   <v-row no-gutters 
       class="pt-8"
       align="center"
-      justify="center">
+      justify="center"
+      about id="motivation_id">
       <h1 class="text-h4 font-weight-thin mb-4">
               Motivation
       </h1>
@@ -63,7 +72,8 @@ To realize the vision of autonomous driving, the automotive industry is investin
  <v-row no-gutters 
       class="pt-8"
       align="center"
-      justify="center">
+      justify="center"
+      about id="detailed_description_id">
       <h1 class="text-h4 font-weight-thin mb-4">
               Detailed Description
       </h1>
@@ -92,7 +102,8 @@ To realize the vision of autonomous driving, the automotive industry is investin
     <v-row no-gutters 
       class="pt-8"
       align="center"
-      justify="center">
+      justify="center"
+      about id="speakers_id">
       <h1 class="text-h4 font-weight-thin mb-4">
               Speakers
       </h1>
@@ -109,7 +120,8 @@ To realize the vision of autonomous driving, the automotive industry is investin
     <v-row no-gutters 
       class="pt-8"
       align="center"
-      justify="center">
+      justify="center"
+      about id="tutorial_program_id">
       <h1 class="text-h4 font-weight-thin mb-4">
               Tutorial Program
       </h1>
@@ -147,7 +159,8 @@ To realize the vision of autonomous driving, the automotive industry is investin
   <v-row no-gutters 
       class="pt-8"
       align="center"
-      justify="center">
+      justify="center"
+      about id="references_id">
       <h1 class="text-h4 font-weight-thin mb-4">
               References
       </h1>
@@ -271,6 +284,11 @@ import BiographyCard from './BiographyCard.vue'
   .start-image{
     width: 100%;
     padding: 0px}
+
+  .heading-text{ 
+      color: white;
+      //-webkit-text-stroke: 0.5px #4B296B;
+    }
 
   h4, h5 {
        margin: 100;
