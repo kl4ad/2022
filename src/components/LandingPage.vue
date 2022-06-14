@@ -46,7 +46,7 @@
         align="center"
         justify="center">
         <p class="text-justify">
-      <b>Autonomous Driving (AD)</b> is considered as a testbed for tackling many hard AI problems. Despite the recent advancements in the field, AD is still far from achieving full autonomy due to core technical problems inherent in AD. The emerging field of neuro-symbolic AI and the methods for <b>knowledge-infused learning</b> are showing exciting ways of leveraging external knowledge within machine/deep learning solutions, with the potential benefits for interpretability, explainability, robustness, and transferability. In this tutorial, we will examine the use of knowledge-infused learning for three core state-of-the-art technical achievements within the AD domain. With a collaborative team from both academia and industry, we will demonstrate recent innovations using real-world datasets.
+        <b>Autonomous Driving (AD)</b> is considered as a testbed for tackling many hard AI problems. Despite the recent advancements in the field, AD is still far from achieving full autonomy due to core technical problems inherent in AD. The emerging field of neuro-symbolic AI and the methods for <b>knowledge-infused learning</b> are showing exciting ways of leveraging external knowledge within machine/deep learning solutions, with the potential benefits for interpretability, explainability, robustness, and transferability. In this tutorial, we will examine the use of knowledge-infused learning for three core state-of-the-art technical achievements within the AD domain. With a collaborative team from both academia and industry, we will demonstrate recent innovations using real-world datasets.
     </p>
       </v-row>
   
@@ -84,7 +84,7 @@ To realize the vision of autonomous driving, the automotive industry is investin
       justify="center">
       <p class="text-justify">
          
- We seek to provide an overview of knowledge-infused learning, an examination of its use for autonomous driving, and three deep dives into current state-of-the-art technical achievements. Specifically, the tutorial will consist of 5 interconnected lecture modules; two 30 mins introductory modules followed by three 40 mins modules for each application. The audience is expected to have a basic understanding of deep/machine learning, semantic technologies (e.g., RDF, OWL, linked open data) and semantic embedding approaches. We aim to guide attendees through a high-level tour of the knowledge-infused learning methods, basic familiarity into open-domain autonomous driving datasets/challenges, and the process of solving domain problems using neuro-symbolic AI methods. We'll be covering the following modules in this tutorial.
+  We seek to provide an overview of knowledge-infused learning, an examination of its use for autonomous driving, and three deep dives into current state-of-the-art technical achievements. Specifically, the tutorial will consist of 5 interconnected lecture modules; two 30 mins introductory modules followed by three 40 mins modules for each application. The audience is expected to have a basic understanding of deep/machine learning, semantic technologies (e.g., RDF, OWL, linked open data) and semantic embedding approaches. We aim to guide attendees through a high-level tour of the knowledge-infused learning methods, basic familiarity into open-domain autonomous driving datasets/challenges, and the process of solving domain problems using neuro-symbolic AI methods. We'll be covering the following modules in this tutorial.
  </p>
  <ul>
   <li><b>Knowledge-infused Learning (KL): </b>  KL a form of neuro-symbolic AI is a novel paradigm that seeks to incorporate a variety of explicit (symbolic) knowledge into a data-driven statistical AI framework that supports advancement in machine intelligence. Utilizing knowledge and data in deep learning models to enable learning from lower-level syntactic and lexical features from data through statistical (deep) learning as well as higher-level concepts from knowledge. Using knowledge also allows greater transparency in the decision-making, and enables explanations that users need for informed decision making. Recently, researchers have categorized the recent approaches into a continuum that comprises of three stages; namely, shallow, semi-deep, and deep infusion. We will provide a detailed overview for each stage of knowledge infusion with examples across several application domains. (<i>See relevant resources:</i> [1])</li><br>
@@ -171,13 +171,13 @@ To realize the vision of autonomous driving, the automotive industry is investin
       justify="center">
       <p class="text-justify">
       <ol>
-        <li> Sheth, A., Gaur, M., Kursuncu, U., Wickramarachchi, R.: Shades of knowledge- infused learning for enhancing deep learning. IEEE Internet Computing (2019)</li>
-        <li>Garcez, A.d., Lamb, L.C.: Neurosymbolic ai: The 3rd wave. arXiv preprint arXiv:2012.05876 (2020)</li>
-        <li>Henson, C., Wickramarachchi, R.: <a href="https://www.bosch.com/stories/knowledge-infused-learning-for-autonomous-driving/" target="_blank"> Introduction to knowledge-infused learning for autonomous driving </a> (June 2021)</li>
-        <li> Wickramarachchi, R., Henson, C., Sheth, A.: Knowledge-infused Learning for Entity Prediction in Driving Scenes. Frontiers in Big Data 4, 759110 (2021)</li>
-        <li> Wickramarachchi, R., Henson, C., Sheth, A. Knowledge-based Entity Prediction for Improved Machine Perception in Autonomous Systems. arXiv preprint arXiv:2203.16616 (2022) </li>
-        <li>Chowdhury, S.N., Wickramarachchi, R., Gad-Elrab, M.H., Stepanova, D., Henson, C.: Towards leveraging commonsense knowledge for autonomous driving. In: ISWC (2021)</li>
-        <li> Monka, S., Halilaj, L., Schmid, S., Rettinger, A.: Learning visual models using a knowledge graph as a trainer. In: ISWC (2021)</li>
+        <li> Sheth, A., Gaur, M., Kursuncu, U., Wickramarachchi, R.: "Shades of knowledge- infused learning for enhancing deep learning". in IEEE Internet Computing (2019)</li>
+        <li>Garcez, A.d., Lamb, L.C.: Neurosymbolic "AI: The 3rd wave". arXiv preprint arXiv:2012.05876 (2020)</li>
+        <li>Henson, C., Wickramarachchi, R.: <a href="https://www.bosch.com/stories/knowledge-infused-learning-for-autonomous-driving/" target="_blank"> "Introduction to knowledge-infused learning for autonomous driving" </a> (June 2021)</li>
+        <li> Wickramarachchi, R., Henson, C., Sheth, A.: "Knowledge-infused Learning for Entity Prediction in Driving Scenes". in Frontiers in Big Data 4, 759110 (2021)</li>
+        <li> Wickramarachchi, R., Henson, C., Sheth, A. "Knowledge-based Entity Prediction for Improved Machine Perception in Autonomous Systems". in IEEE Intelligent Systems (2022), doi: 10.1109/MIS.2022.3181015. </li>
+        <li>Chowdhury, S.N., Wickramarachchi, R., Gad-Elrab, M.H., Stepanova, D., Henson, C.: "Towards leveraging commonsense knowledge for autonomous driving". in International Semantic Web Conference (ISWC) (2021)</li>
+        <li> Monka, S., Halilaj, L., Schmid, S., Rettinger, A.: "Learning visual models using a knowledge graph as a trainer. in International Semantic Web Conference (ISWC) (2021)</li>
   
 </ol>  
   </p>
