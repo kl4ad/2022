@@ -28,6 +28,11 @@
             <h5 class="heading-text text-h5 subheading">
               ISWC'22 Tutorial
             </h5>
+            <h5 class="highlight-text font-weight-bold text-h5">
+              <br>
+              October 24<sup>th</sup> 2022 (Virtual)
+            </h5>
+            
           </v-col>
         </v-row>
       </v-parallax>
@@ -145,7 +150,7 @@ To realize the vision of autonomous driving, the automotive industry is investin
             ></span>
           </template>
           <div class="py-4">
-            <h2 :class="`headline font-weight-light mb-4 ${item.color}--text`">
+            <h2 :class="`headline font-weight-bold mb-2 ${item.color}--text`">
               {{item.title}}
             </h2>
             <div>
@@ -241,33 +246,63 @@ import BiographyCard from './BiographyCard.vue'
       ],
       programItems: [
         {
-          color: 'red',
-          //time: 'Time: TBD',
-          title: 'Introduction to Knowledge-infused Learning',
+          color: 'black',
+          time: '08:00 (EST)',
+          title: '',
           description: ''
         },
         {
+          color: 'red',
+          time: '30 mins',
+          title: 'Introduction to Knowledge-infused Learning',
+          description: 'Amit Sheth'
+        },
+        {
           color: 'purple',
-          //time: 'Time: TBD',
+          time: '30 mins',
           title: 'Applications for Autonomous Driving',
+          description: 'Cory Henson'
+        },
+        {
+          color: 'grey',
+          time: 'Break',
+          title: '',
           description: ''
         },
         {
           color: 'green',
-          //time: 'Time: TBD',
+          time: '40 mins',
           title: 'Knowledge-based Entity Prediction (KEP) ',
-          description: ''
+          description: 'Ruwan Wickramarachchi'
         },
         {
           color: 'orange',
-          //time: 'Time: TBD',
+          time: '40 mins',
           title: 'Commonsense for Explainable Scene Clustering ',
+          description: 'Daria Stepanova'
+        },
+        {
+          color: 'grey',
+          time: 'Break',
+          title: '',
           description: ''
         },
         {
           color: 'blue',
-          //time: 'Time: TBD',
+          time: '40 mins',
           title: 'Road Sign Recognition using a KG as a Trainer',
+          description: 'Sebastian Monka'
+        },
+        {
+          color: 'brown',
+          time: '20 mins',
+          title: 'Discussion',
+          description: ''
+        },
+        {
+          color: 'black',
+          time: '11:30 (EST)',
+          title: '',
           description: ''
         },
       ],
@@ -288,6 +323,11 @@ import BiographyCard from './BiographyCard.vue'
   .heading-text{ 
       color: white;
       //-webkit-text-stroke: 0.5px #4B296B;
+    }
+  .highlight-text{ 
+      color: #4f4e4e;
+      //-webkit-text-stroke: 0.5px #ffffff;
+      font-style: italic;
     }
 
   h4, h5 {
